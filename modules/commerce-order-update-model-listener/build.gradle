@@ -1,0 +1,6 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel"
+	compileOnly group: "org.osgi", name: "org.osgi.service.component.annotations"
+	compileOnly group: "com.liferay.commerce", name: "com.liferay.commerce.api", version: "19.1.1"
+	compileOnly group: "com.liferay.commerce", name: "com.liferay.commerce.product.api", version: "22.1.1"
+}
